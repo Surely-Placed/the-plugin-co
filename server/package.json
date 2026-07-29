@@ -1,0 +1,35 @@
+{
+  "name": "the-plugin-payments-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "migrate": "tsx node_modules/knex/bin/cli.js migrate:latest --knexfile knexfile.ts",
+    "migrate:latest": "tsx node_modules/knex/bin/cli.js migrate:latest --knexfile knexfile.ts",
+    "migrate:rollback": "tsx node_modules/knex/bin/cli.js migrate:rollback --knexfile knexfile.ts"
+  },
+  "dependencies": {
+    "@sentry/node": "^10.62.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "knex": "^3.1.0",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.1",
+    "razorpay": "^2.9.5",
+    "tsx": "^4.19.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "@types/nodemailer": "^8.0.1",
+    "nodemon": "^3.1.14",
+    "typescript": "^5.7.2"
+  }
+}

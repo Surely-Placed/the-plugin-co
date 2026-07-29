@@ -1,0 +1,327 @@
+.staggered-menu {
+  --panel-width: clamp(280px, 42vw, 480px);
+  --accent: #1b68cf;
+  --panel-bg: #000000;
+}
+
+@media (max-width: 1024px) {
+  .staggered-menu {
+    --panel-width: 100%;
+  }
+}
+
+.menu-toggle.menu-toggle--light {
+  color: #000000;
+}
+
+.menu-toggle.menu-toggle--light:hover {
+  color: #1b68cf;
+  opacity: 1;
+}
+
+.menu-toggle.menu-toggle--light.menu-toggle--compact {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.12);
+  color: #000000;
+}
+
+.menu-toggle.menu-toggle--light.menu-toggle--compact:hover {
+  background: rgba(27, 104, 207, 0.1);
+  border-color: rgba(27, 104, 207, 0.35);
+  color: #1b68cf;
+}
+
+.menu-toggle.menu-toggle--light.is-open {
+  color: #1b68cf;
+}
+
+.menu-toggle.menu-toggle--light.menu-toggle--compact.is-open {
+  background: #1b68cf;
+  border-color: #1b68cf;
+  color: #ffffff;
+}
+
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.35rem;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: color 0.25s ease, opacity 0.25s ease;
+}
+
+.menu-toggle:hover {
+  color: #1b68cf;
+  opacity: 0.85;
+}
+
+.menu-toggle--inline {
+  position: relative;
+  z-index: 1;
+}
+
+.menu-toggle--compact {
+  width: 2.75rem;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  justify-content: center;
+  gap: 0;
+  padding: 0;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px);
+}
+
+.menu-toggle--compact:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(27, 104, 207, 0.45);
+}
+
+.menu-toggle--compact.is-open {
+  background: #1b68cf;
+  border-color: #1b68cf;
+  color: #ffffff;
+}
+
+.menu-toggle.is-open {
+  color: #1b68cf;
+}
+
+.menu-toggle-label {
+  position: relative;
+  overflow: hidden;
+  height: 1.15em;
+  min-width: 4.25rem;
+}
+
+.menu-toggle-label span {
+  display: block;
+  position: absolute;
+  left: 0;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.menu-toggle-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  line-height: 0;
+}
+
+.menu-prelayer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: var(--panel-width);
+  height: 100%;
+  z-index: 68;
+  transform: translateX(100%);
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.menu-prelayer-1 {
+  background: #1b68cf;
+}
+
+.menu-prelayer-2 {
+  background: #1b68cf;
+}
+
+.menu-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: var(--panel-width);
+  height: 100%;
+  background: var(--panel-bg);
+  z-index: 69;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2rem 2.5rem 2.5rem;
+  box-sizing: border-box;
+  transform: translateX(100%);
+  overflow-y: auto;
+  box-shadow: -24px 0 80px rgba(37, 99, 235, 0.12);
+}
+
+.menu-panel-header {
+  position: relative;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0 0 1rem;
+  z-index: 1;
+}
+
+.menu-panel-eyebrow {
+  margin: 0;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1b68cf;
+  opacity: 0.85;
+}
+
+.menu-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+.menu-close:hover {
+  background: #1b68cf;
+  border-color: #1b68cf;
+  color: #ffffff;
+}
+
+.menu-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-shrink: 0;
+  counter-reset: menu-counter;
+}
+
+.menu-nav li {
+  counter-increment: menu-counter;
+  overflow: hidden;
+}
+
+.menu-nav li + li {
+  margin-top: 0.25rem;
+}
+
+.menu-nav li a {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  font-family: "Montserrat", system-ui, sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  padding: 0.15rem 0;
+  transition: color 0.3s ease;
+}
+
+.menu-nav li a::before {
+  content: counter(menu-counter, decimal-leading-zero);
+  position: static;
+  flex-shrink: 0;
+  min-width: 1.75rem;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.65rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: #1b68cf;
+  opacity: 0.75;
+  transform: translateY(0.35em);
+}
+
+.menu-nav li a:hover,
+.menu-nav li a.is-active {
+  color: #1b68cf;
+}
+
+.menu-cta {
+  flex-shrink: 0;
+  margin-top: auto;
+  padding-top: 2rem;
+}
+
+.menu-cta a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: #1b68cf;
+  color: #ffffff;
+  font-family: "Montserrat", system-ui, sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 9999px;
+  transition: background 0.3s ease;
+}
+
+.menu-cta a:hover {
+  background: #1454a8;
+}
+
+.menu-socials {
+  flex-shrink: 0;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.menu-socials-title {
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #1b68cf;
+  margin-bottom: 0.75rem;
+}
+
+.menu-socials-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.menu-socials-links a {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.menu-socials-links a:hover {
+  opacity: 1;
+  color: #1b68cf;
+}
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 67;
+  cursor: pointer;
+  background: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(4px);
+}

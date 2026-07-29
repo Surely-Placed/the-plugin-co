@@ -1,0 +1,15 @@
+node_modules/
+server/node_modules/
+server/dist/
+server/.env
+server/.env.development
+server/.env.production
+dist/
+.env
+.env.local
+*.local
+.DS_Store
+Thumbs.db
+*.log
+tsconfig.tsbuildinfo
+.vite/

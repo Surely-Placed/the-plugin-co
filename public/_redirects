@@ -1,0 +1,12 @@
+/services    /for-businesses/services    301
+/services/*  /for-businesses/services/:splat  301
+/pricing     /for-businesses/pricing    301
+/portfolio   /for-businesses/case-studies    301
+/portfolio/* /for-businesses/case-studies/:splat  301
+/growth      /for-businesses    301
+/growth/*    /for-businesses/:splat    301
+/careers     /for-talent    301
+/careers/*   /for-talent/:splat    301
+/book/growth /book/for-businesses    301
+/book/careers /book/for-talent    301
+/*    /index.html   200

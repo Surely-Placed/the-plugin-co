@@ -1,0 +1,946 @@
+﻿THE PLUGIN UK
+Plug In.  Grow.  Get Hired.
+
+
+Full Website Content, Structure & Page Wireframes
+Parent Site + Two-Division Architecture  |  UK Market  |  v3.0
+
+
+PARENT SITE  →  theplugin.co.uk
+One unified brand. Two completely separate audience journeys.
+	
+
+DIVISION 1
+The PlugIn Growth
+Digital marketing · AI workflows · Content systems · Data intelligence
+	DIVISION 2
+The PlugIn Careers
+Job marketing · CV & interview coaching · Graduate schemes · Visa strategy
+	
+
+Based on: theplugin.world (global agency) · surelyplaced.com (US career coaching)
+________________
+
+
+Section 1: Brand Architecture & Site Structure
+
+
+Brand Identity
+Brand Name
+	The PlugIn UK
+	Tagline
+	Plug In. Grow. Get Hired.
+	Domain
+	theplugin.co.uk
+	Emails
+	grow@theplugin.co.uk  |  careers@theplugin.co.uk
+	Social
+	@thepluginuk — LinkedIn · Instagram · TikTok
+	Colours
+	Navy #0A1F44  ·  Gold #FFD700  ·  Green #0D6E4E (Careers accent)
+	Parent (Growth)
+	theplugin.world
+	Parent (Careers)
+	surelyplaced.com (US)
+	
+
+Architecture Principle
+The PlugIn UK operates as a single parent brand with two distinct sub-journeys. Every page of the website belongs to one of three tiers:
+* Tier 1 — Parent / Shared: Home, About, Blog, Contact. Visible to all visitors. Introduces both divisions. Cross-links to both journeys.
+* Tier 2 — Division 1 Journey (Growth): /growth and all sub-pages. Targeted entirely at business owners, marketing managers, and founders.
+* Tier 3 — Division 2 Journey (Careers): /careers and all sub-pages. Targeted entirely at international students and graduates in the UK.
+
+
+Visitors self-select on the homepage. Once inside a division journey, the navigation, copy, CTAs, and social proof are all tailored to that audience. Cross-division promotion is minimal — the goal is to keep each audience in their relevant funnel.
+
+
+Complete URL Structure
+Tier
+	URL
+	Page
+	Audience
+	Parent
+	theplugin.co.uk
+	Home — brand entry, dual selector
+	All visitors
+	Parent
+	theplugin.co.uk/about
+	About — shared story, dual values
+	All visitors
+	Parent
+	theplugin.co.uk/blog
+	Blog — Growth + Careers content streams
+	All visitors
+	Parent
+	theplugin.co.uk/contact
+	Contact — dual booking links
+	All visitors
+	Growth
+	theplugin.co.uk/growth
+	Growth landing — Division 1 entry
+	Businesses
+	Growth
+	theplugin.co.uk/growth/services
+	Services — all 8 growth offerings
+	Businesses
+	Growth
+	theplugin.co.uk/growth/how-it-works
+	Process — Discovery to Scale
+	Businesses
+	Growth
+	theplugin.co.uk/growth/case-studies
+	Case studies — client results
+	Businesses
+	Growth
+	theplugin.co.uk/growth/pricing
+	Pricing — 3 business plans
+	Businesses
+	Growth
+	theplugin.co.uk/book/growth
+	Book a Growth Consultation
+	Businesses
+	Careers
+	theplugin.co.uk/careers
+	Careers landing — Division 2 entry
+	Graduates
+	Careers
+	theplugin.co.uk/careers/services
+	Services — all 7 career offerings
+	Graduates
+	Careers
+	theplugin.co.uk/careers/how-it-works
+	Process — 4-step career journey
+	Graduates
+	Careers
+	theplugin.co.uk/careers/success-stories
+	Case studies — graduate placements
+	Graduates
+	Careers
+	theplugin.co.uk/careers/pricing
+	Pricing — 3 coaching plans
+	Graduates
+	Careers
+	theplugin.co.uk/book/careers
+	Book a Career Strategy Call
+	Graduates
+	________________
+
+
+Section 2: Parent Site — Page Content
+
+
+The parent pages serve all visitors. They introduce the brand, both divisions, and let visitors self-select their journey. Copy is dual-audience, benefit-led, and never assumes which division the visitor needs.
+
+
+HOME — theplugin.co.uk
+
+
+— NAVIGATION BAR
+Logo (The PlugIn UK)  |  Growth ▾  |  Careers ▾  |  About  |  Blog  |  [ Book a Call ]
+Growth dropdown: Growth Home · Services · How It Works · Case Studies · Pricing
+Careers dropdown: Careers Home · Services · How It Works · Success Stories · Pricing
+
+
+— HERO SECTION
+Headline (H1)
+Plug In.
+Grow your business. Get hired.
+	Sub-headline
+The PlugIn UK is the only platform in the UK that builds marketing systems for ambitious businesses and career systems for international graduates — under one roof, to one standard.
+Dual CTA (side by side)
+Left: [ Grow with The PlugIn → ]  (Navy button — routes to /growth)
+Right: [ Get Hired with The PlugIn → ]  (Green button — routes to /careers)
+Trust Bar (below CTAs)
+50+ businesses grown  ·  300+ graduates placed  ·  UK's only dual growth & careers platform  ·  Visa-friendly employer network
+
+
+— DIVISION CARDS SECTION
+Section Headline: Two ways to plug in.
+
+
+THE PLUGIN GROWTH
+For businesses that want to dominate their market.
+We build performance marketing campaigns, SEO engines, AI automation systems, content workflows, and data intelligence dashboards. We become your embedded growth team — faster, smarter, and more accountable than a traditional agency.
+Services: Performance Marketing · SEO & Content · Social Media · Web Dev · Branding · AI Workflows · Data Intelligence · Content Systems
+[ Explore Growth Services → ]
+	
+
+THE PLUGIN CAREERS
+For international graduates building a career in the UK.
+We give international talent the CV, strategy, interview coaching, and connections they need to land UK roles — with visa support built in from day one. We are the unfair advantage you didn't know you were allowed to have.
+Services: CV & LinkedIn · Graduate Schemes · Interview Coaching · Job Search Strategy · Networking & Referrals · Visa Guidance · 1:1 Mentorship
+[ Explore Career Services → ]
+	
+
+— SOCIAL PROOF — NUMBERS
+50+ businesses grown  ·  300+ graduates placed in UK roles
+Avg 60 days to measurable ROAS improvement (Growth)  ·  Avg 90 days to first interview (Careers)
+	
+
+— TESTIMONIALS — MIXED (COLOUR-CODED)
+Section Headline: Don't take our word for it.
+"Their creativity, attention to detail, and ability to bring our vision to life made us feel like we finally had a partner who got it."
+— Leslie Boatwright, CEO / Hillstreet Industries  [GROWTH]
+	
+
+"Before The PlugIn, I'd been applying for 6 months and heard nothing. In 8 weeks I had three interviews and two offers. The strategy they gave me was genuinely game-changing."
+— Priya M., MSc Data Science, University of Manchester → HSBC London  [CAREERS]
+	
+
+"They move faster than anyone we've worked with. Strategy on Monday, live campaigns by Friday."
+— Jordan Ellis, CEO / Atlas Startup Labs  [GROWTH]
+	
+
+"The PlugIn understood things about the UK job market that my university career service had never mentioned."
+— Sofia R., LLM, UCL → Trainee Solicitor, Clifford Chance  [CAREERS]
+	
+
+— HOME CTA BANNER
+One brand. Two ways to plug in.
+Whether you're a business ready to grow or a graduate ready to launch your career — The PlugIn has the system, the team, and the track record.
+[ Grow with The PlugIn → ]          [ Get Hired with The PlugIn → ]
+	________________
+
+
+ABOUT — theplugin.co.uk/about
+
+
+Page Title: About The PlugIn UK — Built by People Who Have Been There
+Page Subtitle: Two missions. One standard. Zero generic advice.
+
+
+Our Story
+The PlugIn UK exists because two problems kept repeating themselves, and both had the same root cause: a gap between talented people and the systems that help them succeed.
+On the business side: too many UK companies with real potential were spending money on marketing without a coherent strategy. Relying on agencies that sent monthly reports instead of driving monthly results. Falling behind competitors who had invested in proper growth systems.
+On the careers side: too many international graduates — brilliant, hardworking, and degree-qualified — were invisible in the UK job market because nobody had taught them how the system worked. Graduate schemes, ATS filters, assessment centres, visa-eligible employers — a whole hidden playbook that domestic candidates often pick up by osmosis.
+We built The PlugIn UK to close both gaps. The same obsession with data and specificity runs through both divisions. The same refusal to offer generic solutions. The same commitment to being a genuine partner — not a vendor.
+
+
+Values (Shared Across Both Divisions)
+Specificity
+	Generic advice is everywhere and it is useless. We build specific strategies for specific situations.
+	Transparency
+	No black boxes. Real-time reporting, honest conversations, and clear metrics on both sides.
+	Relentlessness
+	We don't stop when things get hard. Growth and job searches are rarely straight lines.
+	Data-first
+	Every decision — for businesses and for job seekers — is based on evidence, not gut feeling.
+	Empathy
+	We have been in our clients' positions. We do not judge starting points — we work with them.
+	
+
+Dual-Division Origin
+Growth:
+Founded by digital marketers who saw the gap between what agencies promised and what they delivered. Built on sprint methodology, obsessive measurement, and a belief that marketing should be held accountable to revenue outcomes — not vanity metrics.
+Careers:
+Founded by international graduates who navigated the UK job market the hard way — and built the coaching service they wish had existed. Powered by the same methodology behind Surely Placed, which has placed 300+ graduates in US tech roles.
+
+
+— DUAL CTA
+[ Work with our Growth team → ]     [ Work with our Careers team → ]
+________________
+
+
+BLOG / RESOURCES — theplugin.co.uk/blog
+
+
+Page Title: The PlugIn Resource Hub
+Page Subtitle: Free knowledge from both sides of The PlugIn — marketing intelligence for businesses, career intelligence for graduates.
+
+
+Filter Bar
+All | Growth | Careers | AI & Automation | Graduate Schemes | SEO & Content | UK Job Market | Visa Strategy
+
+
+Growth Articles (Launch — 10 articles)
+Article Title
+	Primary SEO Keyword
+	How to Build an AI Content Workflow for Your UK Business (2026)
+	AI content workflow UK business
+	UK Performance Marketing in 2026: What's Actually Working
+	UK performance marketing strategies 2026
+	AEO vs SEO: How to Get Your Brand Cited by AI Search in 2026
+	answer engine optimisation UK 2026
+	Why Your Google Ads Are Wasting Money (And How to Fix It)
+	Google Ads optimisation UK small business
+	How to Build a LinkedIn Strategy That Generates B2B Leads in the UK
+	LinkedIn B2B lead generation UK
+	The Complete Guide to UK Marketing Attribution for SMEs
+	marketing attribution models UK 2026
+	Agency vs. In-House: What UK Businesses Get Wrong
+	marketing agency vs in-house UK
+	10 AI Tools That Save UK Marketing Teams 10+ Hours Per Week
+	AI tools UK marketing team 2026
+	How to Run a Growth Audit on Your Own Business (Free Template)
+	business growth audit template UK
+	Data Intelligence for UK SMEs: Turning Numbers Into Decisions
+	data intelligence UK SME marketing
+	
+
+Careers Articles (Launch — 10 articles)
+Article Title
+	Primary SEO Keyword
+	The Complete Guide to UK Graduate Schemes 2026 (International Students)
+	UK graduate schemes international students 2026
+	Graduate Route Visa vs Skilled Worker Visa: Which Path Is Right for You?
+	Graduate Route vs Skilled Worker Visa UK
+	How to Write a UK CV in 2026: Format, Examples & ATS Tips
+	UK CV format 2026
+	50 UK Employers Who Sponsor Skilled Worker Visas in 2026
+	UK Skilled Worker Visa sponsors 2026
+	How to Pass a UK Assessment Centre: The Complete Guide
+	UK assessment centre tips international graduate
+	UK Job Search: Why You're Getting Rejected (And How to Fix It)
+	UK job search rejection reasons international student
+	How to Use LinkedIn to Get a UK Job as an International Graduate
+	LinkedIn UK job search international graduate
+	Goldman Sachs, McKinsey, Deloitte: What They're Actually Looking For
+	UK top graduate employer requirements
+	The STAR Method Explained: UK Competency Interview Guide With Examples
+	STAR method UK interview examples
+	How to Build a Professional Network in the UK When You Know Nobody
+	UK professional networking tips international graduate
+	
+
+Lead Magnets (Gated)
+Growth:
+* Free Growth Audit Template (PDF) — 50-point self-assessment
+* The UK AI Tool Stack for Marketing Teams 2026 (PDF)
+* Monthly newsletter: The PlugIn Growth Brief — UK marketing intelligence
+Careers:
+* UK Graduate Job Search Checklist (PDF) — 50 steps from first application to offer
+* Which UK Employers Sponsor Visas? 2026 Edition (PDF) — curated sponsor list
+* The STAR Answer Bank (PDF) — 20 pre-built competency answers for UK interviews
+* Monthly newsletter: The PlugIn Career Brief — graduate scheme deadlines, employer news, visa updates
+________________
+
+
+CONTACT — theplugin.co.uk/contact
+
+
+Page Title: Book Your Free Call
+Page Subtitle: Tell us which side of The PlugIn you need. We will take it from there.
+
+
+GROWTH CONSULTATION
+For businesses that want to grow through marketing, AI systems, content workflows, or data-driven strategy.
+[ Book Growth Consultation → ]
+grow@theplugin.co.uk
+	CAREER STRATEGY CALL
+For international graduates who want a UK job, visa strategy, and a career coaching system that actually works.
+[ Book Career Strategy Call → ]
+careers@theplugin.co.uk
+	________________
+
+
+
+
+DIVISION 1: THE PLUGIN GROWTH
+Performance Marketing · SEO · Social · Web · Branding · AI · Data · Content Systems
+	
+
+Section 3: Division 1 — Growth Journey Pages
+
+
+GROWTH LANDING — theplugin.co.uk/growth
+
+
+This is the entry point for business visitors. It mirrors the parent Home but is written entirely for a business audience. All CTAs point deeper into the Growth journey.
+
+
+— HERO
+Headline: Your Growth System Is Here.
+Sub-headline: We don't just run campaigns — we build the systems that make your business grow sustainably. From ad spend to AI automation, from content to conversion — we're your embedded growth team.
+CTA: [ Book a Free Growth Consultation → ]
+Trust bar: 50+ businesses grown  ·  Avg 60-day ROAS improvement  ·  Data-driven sprint methodology  ·  UK & international campaigns
+
+
+— PROBLEM SECTION
+Headline: Digital marketing doesn't have to be difficult.
+Getting lost in the digital maze? At The PlugIn, we don't just offer a clear roadmap — we navigate strategy, marketing, and technology for you.
+Frustrated with cut-and-paste models? Every business is different. We build tailor-made growth systems for your company and its evolving needs.
+Feeling left in the dark? We work with complete transparency — real-time reporting, intuitive dashboards, and a dedicated team always available.
+
+
+— SERVICES GRID (CONDENSED — LINKS TO /GROWTH/SERVICES)
+8 service cards: Performance Marketing · SEO & Content · Social Media · Web Development · Branding & Design · AI Workflows · Data Intelligence · Content Systems
+
+
+— HOW IT WORKS SNAPSHOT
+Headline: Grow your presence, step by step.
+4 steps condensed: Discovery & Audit → Strategy Roadmap → Build & Sprint → Optimise & Scale. [ See Full Process → ]
+
+
+— TESTIMONIALS (GROWTH ONLY)
+"Their creativity, attention to detail, and ability to bring our vision to life made us feel like we finally had a partner who got it."
+— Leslie Boatwright, CEO / Hillstreet Industries
+	
+
+"Best investment we made all year. ROAS improved within the first 60 days of launch."
+— Priya Sharma, Owner / Verde Home Co.
+	
+
+"Transparent, reliable, effective — no black boxes, just clear metrics and honest recommendations."
+— Aisha Khan, Marketing Director / Brightpath Agency
+	
+
+— PACKAGES SNAPSHOT
+Foundation £1,500/mo  ·  Solution £3,500/mo  ·  Full Stack £6,500+/mo  [ See Full Pricing → ]
+— GROWTH CTA BANNER
+Headline: Make your mark in the digital world.
+CTA: [ Book a Free Growth Consultation → ]  (links to /book/growth)
+________________
+
+
+GROWTH SERVICES — theplugin.co.uk/growth/services
+
+
+Page Title: Pick Your Growth Plugin.
+Page Subtitle: Growth isn't a single lever — it's a system. Acquisition, conversion, retention, and operational efficiency. Every service plugs into that system.
+
+
+Service 01: Performance Marketing — Turn Ad Spend Into Revenue
+Every pound you spend on ads should be working harder. We build, manage, and optimise paid campaigns that generate measurable business outcomes.
+What we deliver:
+* Google Ads: Search, Shopping, Display, YouTube — UK market targeting and audience strategies
+* Meta Ads: Facebook & Instagram — prospecting and retargeting funnels
+* LinkedIn Ads: B2B demand generation for UK and global markets
+* TikTok and Pinterest: emerging channel deployment where ROI-justified
+* Landing page creation and CRO — conversion rate optimisation tied directly to paid traffic
+* Weekly sprint reports: ROAS, CPA, CTR, revenue attribution
+
+
+Service 02: SEO & Content Strategy — Get Found. Get Chosen.
+Organic growth compounds over time. We help your customers find you before they find your competitors.
+What we deliver:
+* Technical SEO: Core Web Vitals, crawlability, indexation, schema markup, site architecture
+* Keyword research and topical authority mapping for UK search intent
+* Content strategy: pillar pages, cluster content, blog programme
+* On-page SEO across all existing and new pages
+* Link building and digital PR — domain authority growth through earned coverage
+* AEO (Answer Engine Optimisation): getting your brand cited in AI-generated answers (ChatGPT, Google AI Overviews)
+* Monthly ranking and organic revenue dashboard
+
+
+Service 03: Social Media Management — Build a Community That Sells
+What we deliver:
+* Full social management: strategy, content calendar, creation, scheduling, community management
+* Platforms: LinkedIn, Instagram, TikTok, X, Facebook — channel selection based on your audience
+* Short-form video strategy: Reels, TikToks, YouTube Shorts
+* Brand voice development and content guidelines
+* Influencer and creator partnership strategy (UK market)
+* Monthly analytics: reach, engagement, follower growth, conversions
+
+
+Service 04: Web Development — A Website That Actually Sells
+What we deliver:
+* New website builds: WordPress, Webflow, or Next.js — matched to your needs and team
+* Landing page and funnel builds optimised for conversion
+* Website performance optimisation: Core Web Vitals, page speed, mobile UX
+* E-commerce: Shopify and WooCommerce builds and optimisation
+* Ongoing maintenance, hosting support, and iterative improvement
+* Analytics integration: GA4, Hotjar, Microsoft Clarity, Google Tag Manager
+
+
+Service 05: Branding & Design — Become Impossible to Ignore
+What we deliver:
+* Brand strategy: positioning, messaging framework, tone of voice guide
+* Logo design and visual identity: colours, typography, iconography, imagery style
+* Brand guidelines document — the rulebook your team actually uses
+* Social media creative templates
+* Ad creative: static and motion graphics for paid campaigns
+* Pitch decks, presentations, and sales collateral
+
+
+Service 06: AI Workflows & Automation — Work Smarter. Scale Faster.
+Automate repetitive work. Save time. Reduce costs. Increase output. AI multiplies your team — it does not replace them.
+What we deliver:
+* AI audit: map your current processes, identify automation opportunities and ROI
+* Custom workflow builds: Make, Zapier, n8n, OpenAI API, Claude — matched to your stack
+* Content automation: AI-assisted pipelines that produce on-brand output at scale
+* Lead qualification and CRM automation — no more manually logging calls
+* Customer support automation: AI chatbots, FAQ handlers, ticket routing
+* Reporting workflows: raw data → structured weekly business intelligence summaries
+* AI tool stack consulting: which tools, which integrations, which order to implement
+
+
+Service 07: Data & Marketing Intelligence — Solve Business Problems with Data
+Most businesses drown in data and starve for insight. We build dashboards, attribution models, and decision frameworks that turn your data into clear action.
+What we deliver:
+* Marketing data audit: what you're tracking, what you're missing, what actually matters
+* Custom dashboards: Looker Studio, Power BI, or bespoke — connecting GA4, Meta, Google Ads, CRM
+* Attribution modelling: which channels and touchpoints actually drive revenue
+* Customer segmentation and audience intelligence
+* A/B test design, execution, and analysis
+* Monthly data review: KPIs, anomaly detection, strategic recommendations
+
+
+Service 08: Content Workflows & Systems — Content at Scale, Without the Chaos
+Great content is not a one-off. It is a system. We build the processes that allow your business to produce and distribute content consistently.
+What we deliver:
+* Content workflow audit: where content gets created, approved, and distributed — and where it breaks down
+* Editorial calendar and content governance framework
+* Multi-channel repurposing: one piece → blog + social + newsletter + podcast notes
+* AI-assisted production setup: brief → draft → edit → publish, semi-automated
+* Team training and SOP documentation
+* Content performance tracking and iterative optimisation
+
+
+Service Combinations:
+* Brand + Performance: Recognition compounds ad efficiency. Visual identity, offer, and landing experience aligned = more conversions at lower CPAs.
+* SEO + Content + Social: Organic channels reinforce each other. Search captures intent, content builds authority, social creates loyalty.
+* Web + AI: Your site becomes an active sales and ops layer — intelligent forms, automated qualification, no extra headcount.
+* Data Intelligence + All Channels: The 20% of activity driving 80% of results becomes visible — and scalable.
+________________
+
+
+GROWTH: HOW IT WORKS — theplugin.co.uk/growth/how-it-works
+
+
+Page Title: How We Work. How You Grow.
+Page Subtitle: We are not a black box. Here is exactly what happens from your first call to your first measurable results.
+
+
+STEP 1 — Free Growth Consultation
+30 minutes. Free. No commitment.
+We start with a free consultation to understand your business, goals, and current marketing setup. We ask sharp questions. We tell you what we see. By the end of the call, you have a clear view of where the gaps are — whether you work with us or not.
+	
+
+STEP 2 — Discovery & Growth Audit  |  Week 1
+If we're a fit, we conduct a full growth audit — covering ad accounts, SEO health, website performance, analytics setup, and content. You receive a written audit report with a prioritised recommendations matrix. This forms the foundation of everything we build next.
+	
+
+STEP 3 — Strategy Roadmap  |  Week 2
+Based on the audit, we build a 90-day growth roadmap: which channels, which services, which sequence, and which KPIs. We present this to your team and align on priorities before we spend a single pound. You approve everything before we act.
+	
+
+STEP 4 — Build & Sprint  |  Weeks 3 onwards
+Two-week sprints: clear objectives, defined deliverables, and a brief you approve before we execute. Every sprint ends with a review — what we shipped, what the data says, what we're doing next. No surprises. No excuses. Just measurable progress.
+	
+
+STEP 5 — Optimise & Scale  |  Ongoing
+Month over month, we analyse performance, identify what's working, and double down. Your live dashboard gives you full visibility at all times. Your dedicated team is available Monday to Friday.
+	________________
+
+
+GROWTH: CASE STUDIES — theplugin.co.uk/growth/case-studies
+
+
+Page Title: Results. Not Promises.
+Page Subtitle: Every client story below is built on a specific strategy, a specific problem, and a specific outcome.
+
+
+Hillstreet Industries — Brand + Performance Marketing
+Challenge: Scattered visual identity and underperforming ad spend. No coherent brand story across channels.
+What we did: Full brand identity redesign. Rebuilt Meta and Google Ads campaigns aligned to new brand. Created a landing page suite and offer hierarchy.
+Result: ROAS improved within 60 days. Brand recall increased. Leslie Boatwright (CEO): 'They brought our vision to life.'
+	
+
+Northline SaaS — Content + SEO + AI Workflow
+Challenge: Strong product, zero organic visibility. Marketing team of 1, stretched thin.
+What we did: Built a topical authority SEO engine. Set up an AI content workflow producing 12 high-quality articles per month. Integrated LinkedIn distribution.
+Result: Organic traffic up 340% in 6 months. MQL volume from content up 4x. Marcus Chen (Founder): 'The PlugIn became an extension of our team.'
+	
+
+Summit Realty Group — Web Development + AI Lead Qualification
+Challenge: Outdated website. Low lead volume despite active ad spend.
+What we did: Rebuilt website on Webflow with conversion architecture. Restructured ad funnel. Added AI lead qualification — scoring enquiries before they reach the sales team.
+Result: Lead volume doubled. Sales team now speak only to qualified prospects. Daniel Reyes (Founder): 'Our lead volume doubled after replatforming with The PlugIn.'
+	________________
+
+
+GROWTH: PRICING — theplugin.co.uk/growth/pricing
+
+
+Page Title: Choose the Level of Support That Fits.
+Page Subtitle: Foundation to Full Stack. All plans include a free Discovery Consultation. No locked-in contracts after the first 3 months.
+
+
+FOUNDATION
+£1,500/mo
+3-month minimum
+Best for: Businesses that need a clear strategy and baseline infrastructure before scaling.
+* Free Discovery Consultation
+* Full growth audit + written report
+* 90-day strategy roadmap
+* Basic performance dashboard
+* 1 active channel (your choice)
+* Monthly strategy review session
+* Email support
+	SOLUTION
+£3,500/mo
+3-month minimum — most popular
+Best for: Growing businesses ready to activate multiple channels with a dedicated team.
+* Everything in Foundation, plus:
+* 2–3 channels active concurrently
+* Campaign & channel setup
+* Fortnightly sprint reviews
+* Ad creative and content production
+* Full analytics & attribution setup
+* WhatsApp team access (Mon–Fri)
+* Monthly data intelligence report
+	FULL STACK
+£6,500+/mo
+6-month engagement
+Best for: Ambitious businesses wanting complete end-to-end execution.
+* Everything in Solution, plus:
+* All channels active
+* AI workflow builds included
+* Content systems implementation
+* Dedicated team: PM + specialists
+* Weekly sprint meetings
+* Real-time monitoring dashboard
+* Priority access 7 days/week
+	
+
+All prices exclude VAT. Bespoke pricing for enterprise engagements. Discovery consultation is always free.
+
+
+Growth Pricing FAQs
+How quickly will I see results?
+For paid media: most clients see measurable ROAS improvement within 60 days. For SEO and content: meaningful organic growth typically emerges at months 3–6. We are honest about timelines before you sign.
+Do I need to provide creative assets?
+No. We produce all ad creative, content, and copy. You provide brand access and approve before we publish.
+What if I only need one service?
+We accommodate single-service retainers, especially where clients have most of the stack in place. Book a consultation and we'll scope accordingly.
+Can I scale up or down?
+Yes. Plans are reviewed every 3 months and adjusted based on performance and business needs.
+What makes The PlugIn different from other agencies?
+We execute in two-week sprints with clear deliverables and written briefs. You see exactly what we built and why it matters — every fortnight.
+________________
+
+
+
+
+DIVISION 2: THE PLUGIN CAREERS
+CV & LinkedIn · Graduate Schemes · Interview Coaching · Job Search · Visa Guidance · Mentorship
+	
+
+Section 4: Division 2 — Careers Journey Pages
+
+
+CAREERS LANDING — theplugin.co.uk/careers
+
+
+This is the entry point for graduate visitors. It mirrors the parent Home but is written entirely for international graduates. All CTAs point deeper into the Careers journey.
+
+
+— HERO
+Headline: You worked hard to get your UK degree. Now let's get you the career to match.
+Sub-headline: The PlugIn Careers is the UK's specialist coaching platform for international graduates. We give you the strategy, CV, interviews, and connections to land a UK role — not someday, but in the next 90 days.
+CTA: [ Book Your Free Career Strategy Call → ]
+Trust bar: 300+ graduates placed in UK roles  ·  Visa-friendly employer network  ·  Graduate Route & Skilled Worker expertise  ·  Graduates from 40+ countries
+
+
+— PROBLEM SECTION
+Headline: The UK job market is brilliant. But nobody told you the rules.
+You landed a place at a UK university. You earned your degree. And then the job search felt like walking into a game where everyone else already knew the rules. Which employers sponsor visas? What even is a graduate scheme? Why does your CV keep getting rejected before a human ever reads it?
+The PlugIn Careers was built by people who have been exactly where you are. We know the UK system inside-out — and we teach it to you.
+
+
+— SERVICES GRID (CONDENSED — LINKS TO /CAREERS/SERVICES)
+7 service cards: CV & LinkedIn Optimisation · Graduate Scheme Strategy · Interview Coaching · Job Search Strategy · Networking & Referrals · Visa Guidance · 1:1 Mentorship
+
+
+— RESULTS NUMBERS
+300+ graduates placed  ·  90-day avg to first interview  ·  40+ nationalities served
+	
+
+— TESTIMONIALS (CAREERS ONLY)
+"Before The PlugIn, I'd been applying for 6 months and heard nothing. In 8 weeks I had three interviews and two offers. The strategy they gave me was genuinely game-changing."
+— Priya M., MSc Data Science, University of Manchester → Data Analyst, HSBC London
+	
+
+"I came to The PlugIn with 3 months left on my Graduate Route Visa, completely lost. They helped me identify the right roles, rewrite my CV, and coached me through the McKinsey process. I got the offer."
+— Ahmed K., MBA, Imperial College London → Business Analyst, McKinsey & Company
+	
+
+"The graduate scheme market was a mystery to me. The PlugIn made it simple and I landed a place on the Deloitte UK Technology graduate scheme."
+— Jin L., BSc Computer Science, University of Edinburgh → Technology Analyst, Deloitte UK
+	
+
+— CAREERS CTA BANNER
+Headline: Ready to Plug In?
+Sub: Book a free 30-minute strategy call. No commitment, no pitch — just an honest conversation about where you are and what you need.
+CTA: [ Book Your Free Career Strategy Call → ]  (links to /book/careers)
+________________
+
+
+CAREERS SERVICES — theplugin.co.uk/careers/services
+
+
+Page Title: Your Career System. Built for the UK.
+Page Subtitle: We don't offer a CV review and send you on your way. Every service is part of a connected system designed to get you from application to offer.
+
+
+Service 01: CV & LinkedIn Optimisation
+Your CV is not just a document — it is your first impression with every UK employer. Most CVs from international graduates fail before a human ever reads them: blocked by ATS systems or dismissed in 6 seconds.
+What we do:
+* Reformat to UK standards: 2 pages, no photo, clean chronological structure
+* ATS optimisation: keyword matching to specific role and sector job descriptions
+* Quantify achievements: e.g. 'Managed project' → 'Managed a 6-person project delivering £120k in cost savings'
+* Tailor CVs for different sectors: finance, tech, consulting, supply chain, law, and more
+* Personal statement crafted for UK hiring manager expectations
+* LinkedIn: headline, About section, experience, skills — recruiter-findability optimised
+
+
+Service 02: Graduate Scheme Strategy
+The UK graduate scheme season is one of the most competitive and time-sensitive hiring processes in the world. Most international students miss it entirely because nobody explained the system.
+What we do:
+* Full graduate scheme calendar for your target sectors (deadlines typically August–November)
+* Shortlist the right schemes for your degree, skills, and visa situation
+* Prepare you for every stage: online tests, video interviews, assessment centres, partner interviews
+* Insider intelligence on Goldman Sachs, Deloitte, Amazon, Google DeepMind, PwC, KPMG, EY, McKinsey, BCG, Barclays, HSBC, JP Morgan, Rolls-Royce, and 50+ others
+* Custom application timeline so you never miss a deadline
+
+
+Service 03: Interview Coaching
+Getting the interview is half the battle. Winning it is the other half. Our coaching is built around the exact frameworks UK employers use.
+What we do:
+* Behavioural / Competency: STAR method, strength-based, values-based interviews
+* Technical: case studies, commercial awareness, industry-specific technical rounds
+* Video & Virtual: HireVue, recorded responses, async interview platforms
+* Assessment Centres: group exercises, presentations, in-tray exercises, partner interviews
+* Live mock interviews with detailed written feedback after each session
+* Offer negotiation coaching: salary, start date, Skilled Worker Visa sponsorship
+
+
+Service 04: Job Search Strategy
+Sending 200 applications and hoping for the best is not a strategy. We give you a targeted, evidence-based approach that creates momentum fast.
+What we do:
+* Identify your highest-probability target roles, sectors, and employers
+* Build a structured weekly application cadence — quality over volume
+* Identify visa-friendly employers using the official UK Home Office sponsor register
+* Track and analyse your application data: response rates, interview conversion, time invested
+* Adapt strategy in real time based on what the data shows
+
+
+Service 05: Networking & Referrals
+In the UK job market, who you know still matters. We help you build a genuine professional network from scratch — even if you arrived in the UK knowing nobody.
+What we do:
+* LinkedIn outreach templates that actually get responses
+* Warm introductions to our network of alumni, recruiters, and hiring managers
+* Guidance on informational interviews and coffee chats
+* Targeted referrals for companies actively seeking international talent
+
+
+Service 06: Visa Guidance (Integrated)
+Visa anxiety is one of the biggest blockers for international graduates. We address it directly — baked into every coaching engagement.
+What we cover:
+* Graduate Route Visa: 18 months post-study (apply by 31 Dec 2026 for 2-year duration where eligible)
+* Skilled Worker Visa: minimum salary £41,700 from 2026 — we factor this into your target role strategy
+* Official UK Home Office sponsor register: which employers have actively sponsored in the last 12 months
+* Realistic timeline planning: when to prioritise speed vs. quality
+* Referrals to regulated immigration advisers when legal advice is needed
+
+
+Service 07: Ongoing 1:1 Mentorship
+What you get:
+* Weekly 45-minute video sessions with your dedicated career coach
+* WhatsApp / email support between sessions (Mon–Fri)
+* Accountability check-ins and shared progress tracker
+* Real-time feedback as you go through live application processes
+* Post-offer support: negotiation, onboarding prep, first-90-days coaching
+________________
+
+
+CAREERS: HOW IT WORKS — theplugin.co.uk/careers/how-it-works
+
+
+Page Title: Your Path from Application to Offer.
+Page Subtitle: A 4-step process — from your first call to your first day in a UK role.
+
+
+STEP 1 — Free Career Strategy Call
+30 minutes. No commitment. No pressure.
+We start by understanding you: background, degree, visa situation, target sectors, where you are in your search. By the end of the call you have a clear view of what is blocking you and what The PlugIn Careers can do about it.
+	
+
+STEP 2 — Build Your Foundations  |  Weeks 1–2
+CV rewrite. LinkedIn overhaul. Job search strategy. We lay the groundwork in the first two weeks so every application you send after this point is working at full strength.
+	
+
+STEP 3 — Go to Market  |  Weeks 3–10
+Targeted applications, networking outreach, and interview preparation running in parallel. We track everything in a shared dashboard, analyse your data weekly, and adjust strategy in real time.
+	
+
+STEP 4 — Land & Negotiate  |  From first offer to first day
+Mock interviews for every stage. Offer evaluation and salary negotiation coaching. Visa transition support. First-90-days onboarding prep. We do not stop when you get the offer.
+	________________
+
+
+CAREERS: SUCCESS STORIES — theplugin.co.uk/careers/success-stories
+
+
+Page Title: International Graduates. UK Careers.
+Page Subtitle: These are not cherry-picked outliers. They are the people who committed to the process.
+
+
+Priya M. — Data Analyst, HSBC London
+Background: MSc Data Science, University of Manchester (India). 6 months of failed applications before joining The PlugIn Careers.
+Challenge: CV not passing ATS. No UK network. Applying to roles that did not sponsor visas.
+What we did: Full CV and LinkedIn overhaul. Reoriented strategy toward active Skilled Worker sponsors. Interview-coached through three technical rounds.
+Result: Three interviews in 8 weeks. Two offers. HSBC London at £42,000 with Skilled Worker Visa sponsored.
+	
+
+Ahmed K. — Business Analyst, McKinsey & Company
+Background: MBA, Imperial College London (Jordan). 3 months remaining on Graduate Route Visa.
+Challenge: Racing against visa expiry. No consulting experience. Zero case study practice.
+What we did: Consulting CV rewrite. 6 case study sessions in 3 weeks. McKinsey-specific PEI and case coaching.
+Result: Offer from McKinsey in 10 weeks. Skilled Worker Visa sponsored. Started within Graduate Route period.
+	
+
+Jin L. — Technology Analyst, Deloitte UK Graduate Scheme
+Background: BSc Computer Science, University of Edinburgh (China). Final year student.
+Challenge: Missed two graduate scheme deadlines. Did not understand assessment centre format.
+What we did: Full graduate scheme calendar. 4 mock assessment centres. End-to-end Deloitte process coaching.
+Result: Deloitte Technology Graduate Scheme. £32,000 + £3,000 joining bonus. Graduate Route Visa.
+	________________
+
+
+CAREERS: PRICING — theplugin.co.uk/careers/pricing
+
+
+Page Title: Invest in Your Career.
+Page Subtitle: Three plans for different needs and timelines. All begin with a free 30-minute career strategy call.
+
+
+STARTER
+£349
+One-time payment
+Best for: Students with time to spare who need their foundations built.
+* CV rewrite (1 revision)
+* LinkedIn profile overhaul
+* 1 x 60-min strategy session
+* Job search action plan
+* Email support for 30 days
+	ACCELERATOR
+£749/month
+3-month commitment — most popular
+Best for: Graduates on a visa deadline who need results fast.
+* Everything in Starter, plus:
+* Unlimited CV & cover letter iterations
+* Weekly 45-min 1:1 coaching sessions
+* Interview coaching (4 mock sessions)
+* Graduate scheme strategy & calendar
+* Application tracking dashboard
+* WhatsApp support (Mon–Fri)
+* Networking & referral access
+* Visa strategy integrated throughout
+	ELITE
+£1,299/month
+6-month engagement
+Best for: MBAs, LLMs, and senior professionals targeting competitive firms.
+* Everything in Accelerator, plus:
+* 2 x weekly coaching sessions
+* Unlimited mock interviews
+* Direct referrals to partner recruiters
+* Offer negotiation coaching
+* First-90-days onboarding support
+* Priority WhatsApp (7 days/week)
+	
+
+Prices in GBP, excluding VAT. Payment plans on request. All plans begin with a free 30-minute strategy call.
+
+
+Careers Pricing FAQs
+Do I need to commit upfront?
+All plans begin with a free strategy call. We recommend the plan that fits your situation — no pressure on the call.
+Can I switch plans?
+Yes. If you start on Starter and upgrade to Accelerator, we credit what you have already paid.
+What if I get a job before my plan ends?
+Remaining sessions carry over as post-offer and onboarding support — nothing is wasted.
+Do you offer refunds?
+7-day money-back guarantee after your first session. Sessions completed after that are non-refundable.
+Is this a guarantee I will get a job?
+No. We are honest about this. We cannot guarantee outcomes. What we guarantee is that every decision in your job search will be informed and strategic.
+________________
+
+
+Section 5: SEO Metadata & Launch Checklist
+
+
+Page-by-Page SEO Metadata
+Page
+	Meta Title
+	Meta Description
+	Home
+	The PlugIn UK | Grow. Get Hired.
+	The PlugIn UK: digital marketing & AI for businesses, career coaching for international graduates. One brand. Two journeys.
+	Growth Landing
+	The PlugIn Growth | UK Digital Marketing Agency
+	Performance marketing, AI workflows, SEO, and content systems for UK businesses. Your embedded growth team.
+	Growth: Services
+	Growth Services | Pick Your Plugin — The PlugIn UK
+	8 growth services: paid media, SEO, social, web dev, AI workflows, data intelligence, content systems. See what fits.
+	Growth: How It Works
+	How We Work | The PlugIn UK Growth Agency
+	Discovery audit → strategy roadmap → sprint execution → ongoing optimisation. Transparent. Measurable. No black boxes.
+	Growth: Case Studies
+	Client Results | The PlugIn UK Growth
+	Real results: ROAS improvements, organic traffic growth, lead volume increases. Built on specific strategies.
+	Growth: Pricing
+	Growth Pricing | From £1,500/mo | The PlugIn UK
+	Foundation, Solution, and Full Stack growth plans. Transparent UK pricing. Free discovery consultation always included.
+	Careers Landing
+	The PlugIn Careers | UK Career Coaching for International Graduates
+	Career coaching for international graduates in the UK. CV, interviews, graduate schemes, visa strategy. Book a free call.
+	Careers: Services
+	Career Coaching Services | The PlugIn UK
+	CV optimisation, interview coaching, graduate scheme strategy, 1:1 mentorship, and visa guidance for UK graduates.
+	Careers: How It Works
+	How Career Coaching Works | The PlugIn UK
+	4-step career coaching process for international graduates in the UK. Strategy call to job offer.
+	Careers: Success Stories
+	Graduate Success Stories | The PlugIn UK
+	International graduates placed at HSBC, McKinsey, Deloitte, Clifford Chance, Rolls-Royce and more. Read their stories.
+	Careers: Pricing
+	Career Coaching Pricing | From £349 | The PlugIn UK
+	Starter, Accelerator, and Elite coaching plans for UK international graduates. Free strategy call before you commit.
+	About
+	About The PlugIn UK | Growth + Careers
+	Built by marketers and graduates who've been there. The story behind both divisions of The PlugIn UK.
+	Blog
+	Blog & Resources | The PlugIn UK
+	Free guides on UK marketing, AI automation, graduate schemes, CV writing, and visa strategy. Growth & Careers.
+	Contact / Book
+	Book a Free Call | The PlugIn UK
+	Book a free Growth Consultation or Career Strategy Call. No commitment. Just honest advice on what you need.
+	
+
+Launch Checklist
+Brand & Technical:
+1. theplugin.co.uk domain live and configured
+2. grow@ and careers@ email addresses active
+3. Google Analytics 4 + Search Console connected
+4. Privacy Policy & Terms (UK GDPR / ICO compliant)
+5. Cookie consent banner implemented
+6. Two Calendly booking links: Growth consult + Career call
+7. Dual navigation structure implemented (Growth ▾ + Careers ▾ dropdowns)
+Growth Division:
+8. Growth landing page live (/growth)
+9. Services page: all 8 services live
+10. How It Works: 5-step process
+11. 3 case studies live
+12. Pricing page: 3 plans + FAQ
+13. 10 Growth blog articles live and SEO optimised
+14. Free Growth Audit Template lead magnet gated
+Careers Division:
+15. Careers landing page live (/careers)
+16. Services page: all 7 services live
+17. How It Works: 4-step process
+18. 3 graduate case studies live
+19. Pricing page: 3 plans + FAQ
+20. 10 Careers blog articles live and SEO optimised
+21. 3 Careers lead magnets gated: CV Checklist + Sponsor PDF + STAR Bank
+Social & Marketing:
+22. LinkedIn company page @thepluginuk — dual division bio
+23. Instagram @thepluginuk
+24. TikTok @thepluginuk (especially Careers content)
+25. Dual email newsletter streams: Growth Brief + Career Brief
+26. Trustpilot or Google Reviews profiles for both divisions
+
+
+
+
+The PlugIn UK — Website Content & Structure  |  Parent + Two-Division Architecture  |  Confidential  |  v3.0  |  June 2026

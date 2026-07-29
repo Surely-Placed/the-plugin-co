@@ -1,0 +1,101 @@
+{
+  "functions": {
+    "api/**/*.mjs": {
+      "maxDuration": 15
+    }
+  },
+  "rewrites": [{ "source": "/((?!api/).*)", "destination": "/index.html" }],
+  "redirects": [
+    { "source": "/services", "destination": "/for-businesses/services", "permanent": true },
+    { "source": "/services/:slug", "destination": "/for-businesses/services/:slug", "permanent": true },
+    { "source": "/pricing", "destination": "/for-businesses/pricing", "permanent": true },
+    { "source": "/portfolio", "destination": "/for-businesses/case-studies", "permanent": true },
+    { "source": "/portfolio/:slug", "destination": "/for-businesses/case-studies/:slug", "permanent": true },
+    { "source": "/growth", "destination": "/for-businesses", "permanent": true },
+    { "source": "/growth/:path*", "destination": "/for-businesses/:path*", "permanent": true },
+    { "source": "/careers", "destination": "/for-talent", "permanent": true },
+    { "source": "/careers/:path*", "destination": "/for-talent/:path*", "permanent": true },
+    { "source": "/book/growth", "destination": "/book/for-businesses", "permanent": true },
+    { "source": "/book/careers", "destination": "/book/for-talent", "permanent": true },
+    {
+      "source": "/blog/how-to-build-an-ai-content-workflow-for-your-uk-business-2026",
+      "destination": "/blog/how-to-build-an-ai-content-workflow-for-your-business-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/uk-performance-marketing-in-2026-what-s-actually-working",
+      "destination": "/blog/performance-marketing-in-2026-what-s-actually-working",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-build-a-linkedin-strategy-that-generates-b2b-leads-in-the-uk",
+      "destination": "/blog/how-to-build-a-linkedin-strategy-that-generates-b2b-leads",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-complete-guide-to-uk-marketing-attribution-for-smes",
+      "destination": "/blog/the-complete-guide-to-marketing-attribution-for-smes",
+      "permanent": true
+    },
+    {
+      "source": "/blog/agency-vs-in-house-what-uk-businesses-get-wrong",
+      "destination": "/blog/agency-vs-in-house-what-businesses-get-wrong",
+      "permanent": true
+    },
+    {
+      "source": "/blog/10-ai-tools-that-save-uk-marketing-teams-10-hours-per-week",
+      "destination": "/blog/10-ai-tools-that-save-marketing-teams-10-hours-per-week",
+      "permanent": true
+    },
+    {
+      "source": "/blog/data-intelligence-for-uk-smes-turning-numbers-into-decisions",
+      "destination": "/blog/data-intelligence-for-smes-turning-numbers-into-decisions",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), accelerometer=*, gyroscope=*, magnetometer=*"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://snap.licdn.com https://www.clarity.ms https://*.razorpay.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; connect-src 'self' https: wss:; frame-src https://calendar.app.google https://calendar.google.com https://www.google.com https://*.razorpay.com; worker-src 'self' blob:"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/media/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    }
+  ]
+}
