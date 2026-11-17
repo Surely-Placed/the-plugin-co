@@ -4,6 +4,20 @@ export default {
   theme: {
     extend: {
       colors: {
+        tp: {
+          page: "var(--tp-page)",
+          surface: "var(--tp-surface)",
+          text: "var(--tp-text)",
+          muted: "var(--tp-muted)",
+          "muted-strong": "var(--tp-muted-strong)",
+          cyan: "#22B4F5",
+          primary: "#1B68CF",
+          "primary-hover": "#2276e0",
+          navy: "#0B1B3A",
+          "accent-text": "#0A6FB0",
+          border: "var(--tp-border)",
+          "border-subtle": "var(--tp-border-subtle)",
+        },
         flow: {
           light: "#3d7fd4",
           mid: "#1b68cf",

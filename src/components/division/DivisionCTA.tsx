@@ -1,9 +1,6 @@
 import type { DivisionId } from "../../lib/divisions";
 import { getDivision } from "../../lib/divisions";
-import { sectionGradientClass } from "../../lib/section-gradients";
-import { RevealSection } from "../sections/RevealSection";
-import { SectionHeading } from "../ui/Motion";
-import { PrimaryCtaButton } from "../ui/PrimaryCtaButton";
+import { TpFinalCta } from "../design/TpFinalCta";
 
 interface DivisionCTAProps {
   division: DivisionId;
@@ -14,23 +11,22 @@ interface DivisionCTAProps {
 export function DivisionCTA({ division, title, subtitle }: DivisionCTAProps) {
   const config = getDivision(division);
 
+  if (division === "growth") {
+    return (
+      <TpFinalCta
+        title={title ?? "Make your mark in the digital world."}
+        body={
+          subtitle ??
+          "Book a call, or start with a free growth audit. No commitment, just clarity on your next move."
+        }
+      />
+    );
+  }
+
   return (
-    <RevealSection className={`section-padding ${sectionGradientClass("cta")}`}>
-      <div className="container-site text-center">
-        <div data-reveal="clip">
-          <SectionHeading
-            title={title ?? "Ready to plug in?"}
-            subtitle={subtitle ?? config.ctaLabel}
-            align="center"
-            dark
-          />
-          <PrimaryCtaButton
-            className="mt-10"
-            label={config.ctaLabel}
-            href={config.bookUrl}
-          />
-        </div>
-      </div>
-    </RevealSection>
+    <TpFinalCta
+      title={title ?? "Ready to plug in?"}
+      body={subtitle ?? config.ctaLabel}
+    />
   );
 }

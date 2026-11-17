@@ -1,7 +1,5 @@
-import { getDivision } from "../../lib/divisions";
-import { ServicesTemplate } from "../../components/templates/ServicesTemplate";
+import { GrowthServicesDesign } from "./GrowthServicesDesign";
 
 export function GrowthServicesPage() {
-  const { content } = getDivision("growth");
-  return <ServicesTemplate division="growth" content={content.services} />;
+  return <GrowthServicesDesign />;
 }

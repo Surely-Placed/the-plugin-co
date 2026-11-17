@@ -7,7 +7,8 @@ import {
   LegacyPortfolioRedirect,
   LegacyServiceRedirect,
 } from "./components/routing/LegacyRedirects";
-import { Navbar } from "./components/layout/Navbar";
+import { TpHeader } from "./components/design/TpHeader";
+import { TpStickyBar } from "./components/design/TpStickyBar";
 import { ScrollToTop } from "./components/layout/ScrollToTop";
 import { SiteLayout } from "./components/layout/SiteLayout";
 import { AnalyticsScripts } from "./components/analytics/AnalyticsScripts";
@@ -49,7 +50,8 @@ export default function App() {
       <WebSiteJsonLd />
       <ScrollToTop />
       <AnalyticsScripts />
-      <Navbar />
+      <TpHeader />
+      <TpStickyBar />
       <Routes>
         <Route element={<SiteLayout />}>
           <Route path="/" element={<HomePage />} />

@@ -1,10 +1,10 @@
 export const brand = {
   name: "The Plugin",
-  tagline: "Plug In. Grow. Get Hired.",
+  tagline: "Plug In. Grow.",
   email: "grow@theplugin.world",
   logo: "/the-plugin-logo.png",
   logoIcon: "/logo-icon.png",
-  calendlyUrl: "https://calendar.app.google/SRL2hqvrR6G3TvJCA",
+  calendlyUrl: "https://calendar.app.google/YnhGuG8LxzMBsAEeA",
   cta: {
     label: "Book a Free Consultation",
     labelShort: "Book",

@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { submitContactForm } from "../../lib/leads";
 import { useToast } from "../ui/ToastProvider";
 
-const inputClass = "input-dark";
+const inputClass = "tp-in";
 
 export function ContactForm() {
   const { toast } = useToast();
