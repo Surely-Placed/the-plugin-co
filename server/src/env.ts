@@ -21,7 +21,7 @@ const schema = z.object({
   RAZORPAY_CHECKOUT_CONFIG_ID: z.string().optional(),
   SENTRY_DSN: z.string().url().optional(),
   CALL_BOOKINGS_SECRET: z.preprocess(blankToUndefined, z.string().min(16).optional()),
-  SHEETS_WEBHOOK_URL: z.preprocess(blankToUndefined, z.string().url().optional()),
+  CALL_BOOKINGS_SHEETS_WEBHOOK_URL: z.preprocess(blankToUndefined, z.string().url().optional()),
 });
 
 export const env = schema.parse(process.env);

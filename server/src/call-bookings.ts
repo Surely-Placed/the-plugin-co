@@ -136,7 +136,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function postToSheet(row: BookingRow) {
   // fetch follows the Apps Script 302 to script.googleusercontent.com by default.
-  const res = await fetch(env.SHEETS_WEBHOOK_URL!, {
+  const res = await fetch(env.CALL_BOOKINGS_SHEETS_WEBHOOK_URL!, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -153,7 +153,7 @@ async function postToSheet(row: BookingRow) {
 }
 
 export async function syncBookingToSheet(id: string) {
-  if (!env.SHEETS_WEBHOOK_URL || !env.CALL_BOOKINGS_SECRET) return;
+  if (!env.CALL_BOOKINGS_SHEETS_WEBHOOK_URL || !env.CALL_BOOKINGS_SECRET) return;
   const row = (await db("call_bookings").where({ id }).first()) as BookingRow | undefined;
   if (!row) return;
 
@@ -199,7 +199,7 @@ async function retryUnsyncedBookings() {
 }
 
 export function startSheetRetryLoop() {
-  if (!env.SHEETS_WEBHOOK_URL || !env.CALL_BOOKINGS_SECRET) return;
+  if (!env.CALL_BOOKINGS_SHEETS_WEBHOOK_URL || !env.CALL_BOOKINGS_SECRET) return;
   setInterval(() => void retryUnsyncedBookings(), RETRY_INTERVAL_MS).unref();
 }
 
