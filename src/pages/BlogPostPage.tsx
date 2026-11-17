@@ -1,4 +1,5 @@
 import { Navigate, useParams } from "react-router-dom";
+import { growthRoutes } from "../lib/design/routes";
 import { getBlogPost, blogPosts } from "../lib/blog";
 import { PageSEO } from "../components/seo/PageSEO";
 import { ArticleJsonLd } from "../components/seo/JsonLd";
@@ -19,7 +20,7 @@ export function BlogPostPage() {
   const post = slug ? getBlogPost(slug) : undefined;
 
   if (!post) {
-    return <Navigate to="/blog" replace />;
+    return <Navigate to={growthRoutes.insights} replace />;
   }
 
   const date = new Date(post.date).toLocaleDateString("en-US", {
@@ -44,7 +45,7 @@ export function BlogPostPage() {
       <PageSEO
         title={post.title}
         description={post.excerpt}
-        path={`/blog/${post.slug}`}
+        path={`${growthRoutes.insights}/${post.slug}`}
         type="article"
       />
       <ArticleJsonLd
@@ -52,7 +53,7 @@ export function BlogPostPage() {
         description={post.excerpt}
         datePublished={post.date}
         author={post.author}
-        url={buildCanonical(`/blog/${post.slug}`)}
+        url={buildCanonical(`${growthRoutes.insights}/${post.slug}`)}
       />
       <article>
         <PageHero page="blog">

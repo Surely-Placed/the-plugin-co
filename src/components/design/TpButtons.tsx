@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { BOOK_CALL_URL } from "../../lib/design/navigation";
+import { useBookCall } from "../book-call/BookCallProvider";
 import { trackCtaClick } from "../../lib/design/cta";
 
 type BtnProps = {
@@ -18,17 +18,19 @@ export function TpBookCallLink({
     </>
   ),
 }: BtnProps) {
+  const { openBookCall } = useBookCall();
   return (
-    <a
-      href={BOOK_CALL_URL}
-      target="_blank"
-      rel="noopener noreferrer"
+    <button
+      type="button"
       data-cta={cta}
       className={className}
-      onClick={() => trackCtaClick(cta)}
+      onClick={() => {
+        trackCtaClick(cta);
+        openBookCall();
+      }}
     >
       {children}
-    </a>
+    </button>
   );
 }
 

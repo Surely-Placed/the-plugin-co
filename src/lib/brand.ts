@@ -1,10 +1,12 @@
+import { CALENDAR_URL } from "../config/calendar";
+
 export const brand = {
   name: "The Plugin",
   tagline: "Plug In. Grow.",
   email: "grow@theplugin.world",
   logo: "/the-plugin-logo.png",
   logoIcon: "/logo-icon.png",
-  calendlyUrl: "https://calendar.app.google/YnhGuG8LxzMBsAEeA",
+  calendlyUrl: CALENDAR_URL,
   cta: {
     label: "Book a Free Consultation",
     labelShort: "Book",

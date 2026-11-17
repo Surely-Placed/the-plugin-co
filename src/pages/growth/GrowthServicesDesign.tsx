@@ -25,7 +25,7 @@ export function GrowthServicesDesign() {
   const auditHref = divisions.growth.routes.book;
 
   return (
-    <div className="tp-page">
+    <>
       <PageSEO {...seo} path={divisions.growth.routes.services} />
 
       <TpBreadcrumbs items={[{ label: "HOME", href: "/" }, { label: "SERVICES" }]} />
@@ -145,6 +145,6 @@ export function GrowthServicesDesign() {
 
       <TpFaq title="Services, answered." items={servicesFaq} />
       <TpFinalCta title={finalCta.title} body={finalCta.body} />
-    </div>
+    </>
   );
 }

@@ -35,12 +35,12 @@ const growthMeta: DivisionMeta = {
   label: "For Businesses",
   audience: "For Businesses",
   routes: {
-    landing: "/for-businesses",
-    services: "/for-businesses/services",
-    howItWorks: "/for-businesses/how-it-works",
-    stories: "/for-businesses/case-studies",
-    pricing: "/for-businesses/pricing",
-    book: "/book/for-businesses",
+    landing: "/",
+    services: "/services",
+    howItWorks: "/how-we-work",
+    stories: "/work",
+    pricing: "/pricing",
+    book: "/free-growth-audit",
   },
   email: "grow@theplugin.world",
   bookUrl: brand.calendlyUrl,
@@ -101,6 +101,15 @@ export function getDivisionNav(id: DivisionId) {
 
 export function matchDivision(pathname: string): DivisionId | null {
   if (
+    pathname === "/" ||
+    pathname.startsWith("/services") ||
+    pathname.startsWith("/how-we-work") ||
+    pathname.startsWith("/work") ||
+    pathname.startsWith("/pricing") ||
+    pathname.startsWith("/free-growth-audit") ||
+    pathname.startsWith("/about") ||
+    pathname.startsWith("/contact") ||
+    pathname.startsWith("/insights") ||
     pathname.startsWith("/for-businesses") ||
     pathname.startsWith("/book/for-businesses") ||
     pathname.startsWith("/growth") ||
