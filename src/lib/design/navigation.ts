@@ -1,30 +1,26 @@
 import { divisions } from "../divisions";
-import type { ServiceSlug } from "../service-icons";
+import type { DesignServiceSlug } from "./service-slugs";
+import { growthRoutes } from "./routes";
 
-const growth = divisions.growth.routes;
+const growth = growthRoutes;
 
-export const BOOK_CALL_URL = "https://calendar.app.google/YnhGuG8LxzMBsAEeA";
-
-/** Primary nav aligned with design, mapped to existing routes */
 export const primaryNav = [
   { label: "Services", href: growth.services, megaKey: "services" as const },
   { label: "How We Work", href: growth.howItWorks },
-  { label: "Work", href: growth.stories },
+  { label: "Work", href: growth.work },
   { label: "Pricing", href: growth.pricing },
-  { label: "Insights", href: "/blog" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  { label: "Insights", href: growth.insights },
+  { label: "About", href: growth.about },
+  { label: "Contact", href: growth.contact },
 ] as const;
 
 export interface DesignServiceNavItem {
   num: string;
   title: string;
   tagline: string;
-  /** Existing app route slug */
-  slug: ServiceSlug;
+  slug: DesignServiceSlug;
 }
 
-/** Seven core plugins from design → existing service detail routes */
 export const designCoreServices: DesignServiceNavItem[] = [
   {
     num: "01",
@@ -36,37 +32,37 @@ export const designCoreServices: DesignServiceNavItem[] = [
     num: "02",
     title: "AI Content",
     tagline: "Content at the speed of the feed. Still on brand.",
-    slug: "ai-workflows",
+    slug: "ai-content",
   },
   {
     num: "03",
     title: "Performance Creative",
     tagline: "Creative that's built to be tested.",
-    slug: "social-media",
+    slug: "performance-creative",
   },
   {
     num: "04",
     title: "Website Development",
     tagline: "A website that actually sells.",
-    slug: "web-development",
+    slug: "website-development",
   },
   {
     num: "05",
     title: "Content & Creative Strategy",
     tagline: "Know what to make before you make it.",
-    slug: "content-systems",
+    slug: "content-creative-strategy",
   },
   {
     num: "06",
     title: "Brand Strategy",
     tagline: "Become impossible to ignore.",
-    slug: "branding-design",
+    slug: "brand-strategy",
   },
   {
     num: "07",
     title: "Software & CRM Development",
     tagline: "Systems that turn leads into revenue.",
-    slug: "data-intelligence",
+    slug: "software-crm-development",
   },
 ];
 
@@ -77,17 +73,17 @@ export const supportingPlugins = [
   "Social Media Management",
 ] as const;
 
-export function serviceDetailHref(slug: ServiceSlug): string {
+export function serviceDetailHref(slug: DesignServiceSlug): string {
   return `${growth.services}/${slug}`;
 }
 
 export const footerCompanyLinks = [
   { label: "How We Work", href: growth.howItWorks },
-  { label: "Work", href: growth.stories },
+  { label: "Work", href: growth.work },
   { label: "Pricing", href: growth.pricing },
-  { label: "Insights", href: "/blog" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  { label: "Insights", href: growth.insights },
+  { label: "About", href: growth.about },
+  { label: "Contact", href: growth.contact },
   { label: "For Talent", href: divisions.careers.routes.landing },
 ] as const;
 

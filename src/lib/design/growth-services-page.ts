@@ -1,10 +1,10 @@
-import type { ServiceSlug } from "../service-icons";
+import type { DesignServiceSlug } from "./service-slugs";
 
 export interface DesignServiceRow {
   num: string;
   title: string;
   tagline: string;
-  slug: ServiceSlug;
+  slug: DesignServiceSlug;
   image: string;
   imageAlt: string;
   body: string;
@@ -42,7 +42,7 @@ export const serviceRows: DesignServiceRow[] = [
     num: "02",
     title: "AI Content",
     tagline: "Content at the speed of the feed. Still on brand.",
-    slug: "ai-workflows",
+    slug: "ai-content",
     image: "/assets/photo-3-phone-feed-ad.webp",
     imageAlt: "Hand scrolling a vertical social feed showing a sponsored product video ad",
     body: "AI content creation uses generative models to produce images, video, voiceover and copy variations from your brand assets. The Plugin directs every output against your brand guidelines, edits and reviews it by hand, and cuts it for each ad placement. AI for speed, humans for taste.",
@@ -52,7 +52,7 @@ export const serviceRows: DesignServiceRow[] = [
     num: "03",
     title: "Performance Creative",
     tagline: "Creative that's built to be tested.",
-    slug: "social-media",
+    slug: "performance-creative",
     image: "/assets/photo-2-content-shoot.webp",
     imageAlt: "Creator filming a product ad on a phone gimbal in a studio",
     body: "Performance creative is advertising content designed to be tested and measured: multiple hooks, angles and formats produced together so the ad platforms can find winners. The Plugin plans creative from performance data, produces it in batches, cuts it for each placement and refreshes it every two weeks based on hook rate, hold rate, CTR and CPA.",
@@ -61,7 +61,7 @@ export const serviceRows: DesignServiceRow[] = [
     num: "04",
     title: "Website Development",
     tagline: "A website that actually sells.",
-    slug: "web-development",
+    slug: "website-development",
     image: "/assets/photo-5-dev-crm-desk.webp",
     imageAlt: "Developer workstation with code editor and live website analytics",
     body: "A website development agency plans, designs and builds websites and landing pages. The Plugin builds sites that load fast, convert visitors into leads or sales, and are structured for SEO and AI search with schema, clean architecture and Core Web Vitals in the green. Tracking and analytics are set up before launch.",
@@ -71,7 +71,7 @@ export const serviceRows: DesignServiceRow[] = [
     num: "05",
     title: "Content & Creative Strategy",
     tagline: "Know what to make before you make it.",
-    slug: "content-systems",
+    slug: "content-creative-strategy",
     image: "/assets/photo-4-strategy-workshop.webp",
     imageAlt: "Two strategists mapping a marketing funnel on a glass wall",
     body: "Content and creative strategy decides what to say, to whom, in which format and on which channel, before anything is produced. The Plugin builds it from audience, competitor and performance research, then turns it into messaging pillars, a creative angles library and a calendar that every ad, post and article follows.",
@@ -80,7 +80,7 @@ export const serviceRows: DesignServiceRow[] = [
     num: "06",
     title: "Brand Strategy",
     tagline: "Become impossible to ignore.",
-    slug: "branding-design",
+    slug: "brand-strategy",
     image: "/assets/photo-6-brand-workspace.webp",
     imageAlt: "Brand guidelines, colour swatches and type specimens laid out on a desk",
     body: "Brand strategy defines who you are for, what you stand for and why customers should choose you over alternatives, then expresses it through messaging and visual identity. The Plugin builds positioning, messaging architecture, naming and brand guidelines designed to make your performance marketing, website and content work harder.",
@@ -90,7 +90,7 @@ export const serviceRows: DesignServiceRow[] = [
     num: "07",
     title: "Software & CRM Development",
     tagline: "Systems that turn leads into revenue.",
-    slug: "data-intelligence",
+    slug: "software-crm-development",
     image: "/assets/photo-5-dev-crm-desk.webp",
     imageAlt: "Developer desk with a CRM sales pipeline board on screen",
     body: "Custom CRM development builds or configures the system your team uses to capture, qualify and close leads. The Plugin sets up HubSpot, Zoho or Salesforce, or builds a custom CRM, then connects it to your ads, website and WhatsApp with automated routing, follow-ups and AI qualification so no lead goes cold.",
@@ -102,21 +102,21 @@ export const serviceStacks = [
     eyebrow: "LAUNCH STACK",
     title: "Launch Stack",
     body: "For new brands and new offers that need to look right, convert and get traffic from day one.",
-    slugs: ["branding-design", "web-development", "performance-marketing"] as ServiceSlug[],
+    slugs: ["brand-strategy", "website-development", "performance-marketing"] as DesignServiceSlug[],
     labels: ["Brand Strategy", "Website Development", "Performance Marketing"],
   },
   {
     eyebrow: "SCALE STACK",
     title: "Scale Stack",
     body: "For brands already spending on ads that want more winning creative and lower acquisition costs.",
-    slugs: ["performance-marketing", "social-media", "ai-workflows"] as ServiceSlug[],
+    slugs: ["performance-marketing", "performance-creative", "ai-content"] as DesignServiceSlug[],
     labels: ["Performance Marketing", "Performance Creative", "AI Content"],
   },
   {
     eyebrow: "SYSTEMS STACK",
     title: "Systems Stack",
     body: "For lead-driven businesses that lose deals between the ad click and the sales call.",
-    slugs: ["web-development", "data-intelligence", "content-systems"] as ServiceSlug[],
+    slugs: ["website-development", "software-crm-development", "content-creative-strategy"] as DesignServiceSlug[],
     labels: ["Website Development", "Software & CRM Development", "Content & Creative Strategy"],
   },
 ];

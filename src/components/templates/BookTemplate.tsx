@@ -33,7 +33,11 @@ export function BookTemplate({ division }: BookTemplateProps) {
           />
         </GsapReveal>
         <GsapReveal immediate delay={0.16}>
-          <PrimaryCtaButton className="mt-10" label="Open calendar →" href={config.bookUrl} />
+          <PrimaryCtaButton
+            className="mt-10"
+            label="Open calendar →"
+            href={division === "growth" ? undefined : config.bookUrl}
+          />
         </GsapReveal>
         {config.email ? (
           <GsapReveal immediate delay={0.24}>

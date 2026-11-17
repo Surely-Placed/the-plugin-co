@@ -27,6 +27,7 @@ export function DivisionCTA({ division, title, subtitle }: DivisionCTAProps) {
     <TpFinalCta
       title={title ?? "Ready to plug in?"}
       body={subtitle ?? config.ctaLabel}
+      bookHref={config.bookUrl}
     />
   );
 }

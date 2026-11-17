@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { BOOK_CALL_URL } from "../../lib/design/navigation";
+import { useBookCall } from "../book-call/BookCallProvider";
 import { divisions } from "../../lib/divisions";
 import { trackCtaClick } from "../../lib/design/cta";
 
@@ -9,6 +9,7 @@ const SHOW_AFTER = 300;
 export function TpStickyBar() {
   const [visible, setVisible] = useState(false);
   const auditHref = divisions.growth.routes.book;
+  const { openBookCall } = useBookCall();
 
   useEffect(() => {
     const onScroll = () => {
@@ -36,16 +37,17 @@ export function TpStickyBar() {
       >
         FREE AUDIT
       </Link>
-      <a
-        href={BOOK_CALL_URL}
-        target="_blank"
-        rel="noopener noreferrer"
+      <button
+        type="button"
         data-cta="sticky-book"
         className="tp-sticky-bar__book"
-        onClick={() => trackCtaClick("sticky-book")}
+        onClick={() => {
+          trackCtaClick("sticky-book");
+          openBookCall();
+        }}
       >
         BOOK A CALL →
-      </a>
+      </button>
     </div>
   );
 }

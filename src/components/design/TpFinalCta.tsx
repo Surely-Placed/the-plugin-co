@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
-import { BOOK_CALL_URL } from "../../lib/design/navigation";
+import { useBookCall } from "../book-call/BookCallProvider";
 import { divisions } from "../../lib/divisions";
 import { trackCtaClick } from "../../lib/design/cta";
 
 interface TpFinalCtaProps {
   title?: string;
   body?: string;
+  /** Link straight to this calendar instead of opening the business booking modal. */
+  bookHref?: string;
 }
 
 const defaults = {
@@ -13,8 +15,9 @@ const defaults = {
   body: "Book a call, or start with a free growth audit. No commitment, just clarity on your next move.",
 };
 
-export function TpFinalCta({ title = defaults.title, body = defaults.body }: TpFinalCtaProps) {
+export function TpFinalCta({ title = defaults.title, body = defaults.body, bookHref }: TpFinalCtaProps) {
   const auditHref = divisions.growth.routes.book;
+  const { openBookCall } = useBookCall();
 
   return (
     <section id="tp-final" className="tp-section-compact">
@@ -26,16 +29,30 @@ export function TpFinalCta({ title = defaults.title, body = defaults.body }: TpF
             <h2 className="tp-heading-final text-balance">{title}</h2>
             <p className="text-base leading-relaxed text-white/90 md:text-lg">{body}</p>
             <div className="flex flex-wrap gap-3">
-              <a
-                href={BOOK_CALL_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-cta="final-book"
-                className="tp-btn-final-primary"
-                onClick={() => trackCtaClick("final-book")}
-              >
-                BOOK A CALL <span aria-hidden>→</span>
-              </a>
+              {bookHref ? (
+                <a
+                  href={bookHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-cta="final-book"
+                  className="tp-btn-final-primary"
+                  onClick={() => trackCtaClick("final-book")}
+                >
+                  BOOK A CALL <span aria-hidden>→</span>
+                </a>
+              ) : (
+                <button
+                  type="button"
+                  data-cta="final-book"
+                  className="tp-btn-final-primary"
+                  onClick={() => {
+                    trackCtaClick("final-book");
+                    openBookCall();
+                  }}
+                >
+                  BOOK A CALL <span aria-hidden>→</span>
+                </button>
+              )}
               <Link
                 to={auditHref}
                 data-cta="final-audit"

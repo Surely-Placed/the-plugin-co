@@ -6,6 +6,7 @@ import rateLimit from "express-rate-limit";
 import helmet from "helmet";
 import Razorpay from "razorpay";
 import { z } from "zod";
+import { callBookingsRouter, startSheetRetryLoop } from "./call-bookings.js";
 import { db, verifyDbConnection } from "./db.js";
 import { env } from "./env.js";
 import { Sentry, sentryEnabled } from "./instrument.js";
@@ -87,6 +88,7 @@ app.post(
 );
 
 app.use(express.json({ limit: "32kb" }));
+app.use(callBookingsRouter);
 
 const idemKey = z.string().uuid();
 const createSchema = z.object({
@@ -297,6 +299,7 @@ verifyDbConnection()
   .then(() => {
     app.listen(env.PORT, "0.0.0.0", () => {
       console.log(`payments api on :${env.PORT}`);
+      startSheetRetryLoop();
       if (sentryEnabled) {
         Sentry.logger.info("payments api started", { port: env.PORT, env: process.env.NODE_ENV });
       }

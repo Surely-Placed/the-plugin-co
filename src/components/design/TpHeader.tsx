@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { brand } from "../../lib/brand";
 import {
-  BOOK_CALL_URL,
   designCoreServices,
   primaryNav,
   serviceDetailHref,
@@ -11,6 +10,7 @@ import {
 import { divisions } from "../../lib/divisions";
 import { trackCtaClick } from "../../lib/design/cta";
 import { ThemeToggle } from "./ThemeToggle";
+import { useBookCall } from "../book-call/BookCallProvider";
 
 const DESKTOP_NAV = 1320;
 const MOBILE_MENU = 820;
@@ -26,6 +26,7 @@ export function TpHeader() {
   const desk = width >= DESKTOP_NAV;
   const navMob = width < DESKTOP_NAV;
   const auditHref = divisions.growth.routes.book;
+  const { openBookCall } = useBookCall();
 
   useEffect(() => {
     const onResize = () => setWidth(window.innerWidth);
@@ -132,30 +133,32 @@ export function TpHeader() {
               >
                 FREE AUDIT
               </Link>
-              <a
-                href={BOOK_CALL_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                type="button"
                 data-cta="header-book"
                 className="tp-btn-header-primary"
-                onClick={() => trackCtaClick("header-book")}
+                onClick={() => {
+                  trackCtaClick("header-book");
+                  openBookCall();
+                }}
               >
                 BOOK A CALL <span aria-hidden>→</span>
-              </a>
+              </button>
             </div>
           </>
         ) : navMob && width >= MOBILE_MENU ? (
           <div className="flex shrink-0 items-center gap-2">
-            <a
-              href={BOOK_CALL_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              type="button"
               data-cta="header-book"
               className="tp-btn-header-primary text-[11px]"
-              onClick={() => trackCtaClick("header-book")}
+              onClick={() => {
+                trackCtaClick("header-book");
+                openBookCall();
+              }}
             >
               BOOK
-            </a>
+            </button>
             <button
               type="button"
               className="tp-menu-toggle"
@@ -231,16 +234,18 @@ export function TpHeader() {
             <Link to={auditHref} data-cta="menu-audit" className="tp-btn-menu-ghost" onClick={() => { trackCtaClick("menu-audit"); setMenuOpen(false); }}>
               FREE AUDIT
             </Link>
-            <a
-              href={BOOK_CALL_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              type="button"
               data-cta="menu-book"
               className="tp-btn-menu-primary"
-              onClick={() => trackCtaClick("menu-book")}
+              onClick={() => {
+                trackCtaClick("menu-book");
+                setMenuOpen(false);
+                openBookCall();
+              }}
             >
               BOOK A CALL →
-            </a>
+            </button>
           </div>
         </div>
       ) : null}

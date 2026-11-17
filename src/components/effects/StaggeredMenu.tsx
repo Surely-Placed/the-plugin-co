@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { X } from "lucide-react";
 import gsap from "gsap";
 import { brand } from "../../lib/brand";
+import { useBookCall } from "../book-call/BookCallProvider";
 import { getMobileNavLinks } from "../../lib/navigation";
 import "./StaggeredMenu.css";
 
@@ -19,6 +20,7 @@ const socialItems = [
 
 export function StaggeredMenu({ isOpen, onToggle }: StaggeredMenuProps) {
   const location = useLocation();
+  const { openBookCall } = useBookCall();
   const panelRef = useRef<HTMLDivElement>(null);
   const prelayer1Ref = useRef<HTMLDivElement>(null);
   const prelayer2Ref = useRef<HTMLDivElement>(null);
@@ -157,7 +159,14 @@ export function StaggeredMenu({ isOpen, onToggle }: StaggeredMenuProps) {
         </ul>
 
         <div ref={ctaRef} className="menu-cta" style={{ opacity: 0 }}>
-          <a href={brand.calendlyUrl} target="_blank" rel="noopener noreferrer">
+          <a
+            href={brand.calendlyUrl}
+            onClick={(e) => {
+              e.preventDefault();
+              onToggle();
+              openBookCall();
+            }}
+          >
             {brand.cta.label}
           </a>
         </div>
